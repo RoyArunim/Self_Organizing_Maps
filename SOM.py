@@ -7,7 +7,7 @@ Created on Sat Jan 14 15:33:56 2023
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-dataset = pd.read_csv("D:/Masters/Self Organizing maps dataset/Self_Organizing_Maps/Credit_Card_Applications.csv")
+dataset = pd.read_csv("Credit_Card_Applications.csv")
 
 X=dataset.iloc[:,:-1].values
 y=dataset.iloc[:,-1].values
